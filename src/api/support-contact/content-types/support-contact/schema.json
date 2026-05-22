@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "support_contacts",
+  "info": {
+    "singularName": "support-contact",
+    "pluralName": "support-contacts",
+    "displayName": "Support Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    }
+  }
+}
