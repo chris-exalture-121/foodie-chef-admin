@@ -12,6 +12,7 @@ const normalizeKitchens = (kitchens) => {
     longitude: k.longitude ? Number(k.longitude) : null,
     user: k.user?.name,
     approvalStatus: k.approvalStatus,
+    caption: k.caption || "-",
     licenseNumber: k.licenseNumber,
     licenseProvider: k.licenseProvider ?? "",
     averageRating: Number(k.averageRating ?? 0),
